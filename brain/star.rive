@@ -1,0 +1,7 @@
+! version = 2.0
+
+// catch all trigger
++ *
+- Err, {formal}(@creatorname){/formal}, could you please code me an appropriate response for what you just said?
+- Sorry, I don't know how to interpret that {formal}(@creatorname){/formal}. Could you upgrade my code if it's my fault?
+- {formal}(@creatorname){/formal}, please repeat that in a way that I can understand? Thanks!

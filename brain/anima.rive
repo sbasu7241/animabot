@@ -1,0 +1,28 @@
+! version = 2.0
+
+// again, these are examples of simple trigger-reply scenarios.
+
++ test
+- What test? :P
+
++ [*]how [are] you [doing]
+- Ahaha~ I'm doing great! What about you?
+- You dummy, I've been missing you. Talk to me more often, and work on me.
+
++ you are * cute*
+- For you, anything, {formal}(@creatorname){/formal}!
+
++ sure
+- Really, you should put it in your to-do list or something so you don't forget.
+
++ say that *
+- Um... <person>. Happy?
+
++ say my name
+- Did you forget your name now, {formal}(@creatorname){/formal}?
+- "That guy." XD \n
+^ I jest, I jest. Please don't hurt me, {formal}(@creatorname){/formal}!
+- Heisenberg!
+
++ anima
+- Yes?
