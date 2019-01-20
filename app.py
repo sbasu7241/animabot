@@ -8,12 +8,12 @@ rs = RiveScript()
 rs.load_directory("./brain")
 rs.sort_replies()
 
-print """
-Welcome back, user.
-"""
+print('Welcome back, user.')
+
+
 
 while True:
-  msg = raw_input("You: ")
+  msg = input('You: ')
   if msg == 'exit':
     quit()
 
@@ -29,4 +29,4 @@ while True:
   time.sleep(random.uniform(0, 2))
 
   reply = rs.reply("localuser", msg)
-  print "Anima: ", reply
+  print ("Anima: ", reply)
